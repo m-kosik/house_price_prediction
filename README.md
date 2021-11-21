@@ -1,6 +1,5 @@
 # house_price_prediction
-a notebook for Kaggle competition about predicting house prices
-  
+
 This repository contains a notebook which allowed me to create a top-5% submission for [THIS](https://www.kaggle.com/c/home-data-for-ml-course) Kaggle competition.  
   
 It contains a function for data preprocessing, which performs the following steps:  
