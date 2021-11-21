@@ -4,7 +4,7 @@ a notebook for Kaggle competition about predicting house prices
 This repository contains a notebook which allowed me to create a top-5% submission for [THIS](https://www.kaggle.com/c/home-data-for-ml-course) Kaggle competition.  
   
 It contains a function for data preprocessing, which performs the following steps:  
-- removing numerical columns which have more than `missing_threshold` missing entries,  
+- removing columns which have more than `missing_threshold` missing entries,  
 - imputing missing data in the rest of the numerical columns with missing data using the median value or 0,  
 - imputing missing data in categorical columns with a new value (often the NaN in categorical data has the meaning of a new category, e.g. "the absence of a garage", therefore the imputation for categorical data is creating a new category where NaN is present),  
 - removing features which have mutual information with the target smaller than `mutual_inf_threshold`,  
